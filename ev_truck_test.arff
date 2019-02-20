@@ -1,0 +1,15 @@
+@relation electrical_vehicle
+
+@attribute outlook {sedan, suv, bus, truck}
+@attribute b_level {low, high}
+@attribute identity {S, SU, B, T}
+@attribute electrical {TRUE, FALSE}
+@attribute charge {yes, no}
+
+@data
+truck,high,T,TRUE,?
+truck,high,T,TRUE,?
+truck,low,T,TRUE,?
+truck,high,T,TRUE,?
+truck,low,T,TRUE,?
+
